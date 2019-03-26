@@ -1,0 +1,42 @@
+.item{
+    max-height: 500px;
+    width: auto;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+@media (max-width: 500px){
+    .btn-slider{
+        max-width: 120px;
+        height: auto;
+        font-size: 11px;
+        text-align: left;
+    }
+    #text-slider{
+        font-size: 13px;
+    }
+    #title-slider{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    .btn-slider{
+        max-width: 110px;
+        height: auto;
+        font-size: 10px;
+        text-align: left;
+    }
+    #text-slider{
+        font-size: 0;
+    }
+    #title-slider{
+        font-size: 20px;
+    }
+}
